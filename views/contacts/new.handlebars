@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card hoverable wow fadeIn mt-5">
+        <div class="card-body">
+          <form action="/" method="POST">
+            <p class="h4 text-center mb-4">Add new contact</p>
+            {{!-- First Name --}}
+            <div class="md-form">
+              <input type="text" id="firstName" name="firstName" class="form-control">
+              <label for="firstName">First Name</label>
+            </div>
+            {{!-- Last Name --}}
+            <div class="md-form">
+              <input type="text" id="lastName" name="lastName" class="form-control">
+              <label for="lastName">Last Name</label>
+            </div>
+            {{!-- Phone number --}}
+             <div class="md-form">
+              <input type="number" step="1" id="phone" name="phoneNumber" class="form-control">
+              <label for="phone">Phone</label>
+            </div>
+            <div class="text-center mt-4">
+              <button type="submit" class="btn btn-sm btn-light-blue waves-effect" type="submit">Save</button>
+            </div>
+          </form>
+          <a href="/"><i class="fa fa-chevron-left"></i> Back to contacts</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
