@@ -1,0 +1,32 @@
+{
+  "name": "phonebookapp",
+  "version": "1.0.0",
+  "description": "A simple phonebook app",
+  "main": "bin/dev",
+  "scripts": {
+    "start": "node bin/dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turkonjavla/PhonebookApp.git"
+  },
+  "author": "Vladimir Turkonja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turkonjavla/PhonebookApp/issues"
+  },
+  "homepage": "https://github.com/turkonjavla/PhonebookApp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-flash": "0.0.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "helmet": "^3.12.1",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.1.5"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0"
+  }
+}
